@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1 Módulo 1</title>
+    <script src="https://kit.fontawesome.com/26327e7446.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <h1 class="title">Primeria pagina</h1>
+    <h2 class="subtitle">Sobre:</h2>
+
+    <div class="darklightmode">
+        <button onclick="backgroundColor(2)"><i class="fas fa-sun"></i></button>
+        <button onclick="backgroundColor(1)"><i class="fas fa-moon"></i></button>
+    </div>
+
+    <div class="text" id="text">
+        Site criado com a finalidade de aplicar o conhecimento recebido durante o curso
+        "Introdução ao Desenvolvimento Web FullStack" referente ao Módulo 1 e seu conteúdo,
+        mostrando a linguagem de marcação Html, em conjunto com o css, usado como mecanismo
+        para adiconar estilos e JavaScript, linguagem de programação de script em alto nível
+        com tipagem dinâmica fraca. Essas tres tecnologias são umas das principais tecnologias 
+        da Word Wide Web (internet). 
+    </div>
+
+    <div>
+        <p>Alterar a cor do texto: </p>
+        <button onclick="textColor(1, '#ff0000')">Vermelho <i class="fas fa-paint-brush" style="color: red"></i></button>
+        <button onclick="textColor(1, '#00ff00')">Verde <i class="fas fa-paint-brush" style="color: lightgreen"></i></button>
+        <button onclick="textColor(1, '#0000ff')">Azul <i class="fas fa-paint-brush" style="color: blue"></i></button>
+        <button onclick="textColor(1, '#000000')">Preto <i class="fas fa-paint-brush" style="color: black"></i></button>
+        <button onclick="textColor(1, '#ffffff')">Branco <i class="fas fa-paint-brush" style="color: white"></i></button>
+
+        <p>Alterar o fundo: </p>
+        <button onclick="textColor(2, '#ff0000')">Vermelho <i class="fas fa-paint-roller" style="color: red"></i></button>
+        <button onclick="textColor(2, '#00ff00')">Verde <i class="fas fa-paint-roller" style="color: lightgreen"></i></button>
+        <button onclick="textColor(2, '#0000ff')">Azul <i class="fas fa-paint-roller" style="color: blue"></i></button>
+        <button onclick="textColor(2, '#000000')">Preto <i class="fas fa-paint-roller" style="color: black"></i></button>
+        <button onclick="textColor(2, '#ffffff')">Branco <i class="fas fa-paint-roller" style="color: white"></i></button>
+    </div>
+
+    <br>
+
+    <div class="numberPage">    
+        <button><a href="page2.html" id="link">Page 2 <i class="fas fa-angle-double-right"></i></a></button>
+    </div>
+    
+    <br>
+
+    <div class="links">
+        <button class="button"><a href="https://github.com/GabsOda" id="link">GitHub <i class="fab fa-github"></i></a></button>
+        <button class="button"><a href="https://github.com/GabsOda/FullStack-cct-Modulo1" id="link">
+            Code Repository <i class="fa fa-file-code-o"></i>
+        </a></button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

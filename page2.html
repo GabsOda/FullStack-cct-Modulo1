@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1 Módulo 1</title>
+    <script src="https://kit.fontawesome.com/26327e7446.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <h1 class="title">Segunda pagina</h1>
+    <h2 class="subtitle">Uma galeria de imagens</h2>
+
+    <div class="darklightmode">
+        <button onclick="backgroundColor(2)"><i class="fas fa-sun"></i></button>
+        <button onclick="backgroundColor(1)"><i class="fas fa-moon"></i></button>
+    </div>
+
+    <div class="frame">
+        <button onclick=changePhoto(-1) class="arrow">Anterior</button>
+        <img class="photo" id="imgPhoto" src="img/code-in-monitor.jpg">
+        <button onclick=changePhoto(+1) class="arrow">Proxima</button>
+    </div>  
+
+    <br>
+
+    <div class="numberPage">
+        <button><a href="index.html" id="link">Page 1 <i class="fas fa-angle-double-left"></i></a></button>
+        <button><a href="page3.html" id="link">Page 3 <i class="fas fa-angle-double-right"></i></a></button>
+    </div>
+
+    <br>
+
+    <div class="links">
+        <button class="button"><a href="https://github.com/GabsOda" id="link">GitHub <i class="fab fa-github"></i></a></button>
+        <button class="button"><a href="https://github.com/GabsOda/FullStack-cct-Modulo1" id="link">
+            Code Repository <i class="fa fa-file-code-o"></i>
+        </a></button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

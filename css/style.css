@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.numberPage{
+    font-size: 10px;
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+}
+
+.darklightmode{
+    font-size: 20px;
+    text-align: right;
+}
+
+.links{
+    text-align: center;
+}
+
+.frame{
+    text-align: center;
+}
+
+.photo{
+    border-style: solid;
+    border-color: darkred;
+    width: 50%;
+}
+
+#link {
+    color: darkred;
+    text-decoration: none;
+}
+
+.list {
+    font-size: 18px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.text {
+    text-indent: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkred;
+    text-align: justify;
+    width: auto;
+    color: black;
+    height: 200px;
+    width: 1000px;
+    background-color: white;
+}
+
+.arrow{
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    background-color: darkred;
+}
